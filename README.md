@@ -6,7 +6,7 @@ null
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/changelog-command-step@v4.21.1
+- uses: liquibase-github-actions/changelog-command-step@v4.23.0
   with:
     # The root changelog file
     # string
@@ -85,7 +85,7 @@ The liquibase changelog command step action accepts all valid liquibase global o
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/changelog-command-step@v4.21.1
+  - uses: liquibase-github-actions/changelog-command-step@v4.23.0
     with:
       changelogFile: ""
       url: ""
